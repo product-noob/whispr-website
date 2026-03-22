@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whispr — Voice to Text for macOS</title>
-  <meta name="description" content="Speak naturally, get clean text. Free, offline voice-to-text for macOS. No subscription, no API key. Open source.">
+  <meta name="description"
+    content="Speak naturally, get clean text. Free, offline voice-to-text for macOS. No subscription, no API key. Open source.">
   <meta name="author" content="Prince Jain">
   <meta property="og:title" content="Whispr — Voice to Text for macOS">
-  <meta property="og:description" content="Speak naturally, get clean text. Free, offline voice-to-text for macOS. No subscription, no API key.">
+  <meta property="og:description"
+    content="Speak naturally, get clean text. Free, offline voice-to-text for macOS. No subscription, no API key.">
   <meta property="og:image" content="https://whispr.princejain.me/share-image.png">
   <meta property="og:url" content="https://whispr.princejain.me">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@jain_prince">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/svg+xml" href="Whispr_icon.svg">
 </head>
+
 <body>
 
   <!-- Nav -->
   <nav>
     <a href="/" class="nav-logo">
       <svg class="nav-logo-icon" width="22" height="22" viewBox="74 74 108 108" fill="currentColor" aria-hidden="true">
-        <path d="M87 112.5C87 108.91 84.09 106 80.5 106C76.91 106 74 108.91 74 112.5V143.5C74 147.09 76.91 150 80.5 150C84.09 150 87 147.09 87 143.5V112.5Z"/>
-        <path d="M110 100.5C110 96.91 107.09 94 103.5 94C99.91 94 97 96.91 97 100.5V155.5C97 159.09 99.91 162 103.5 162C107.09 162 110 159.09 110 155.5V100.5Z"/>
-        <path d="M134.5 80.5C134.5 76.91 131.59 74 128 74C124.41 74 121.5 76.91 121.5 80.5V175.5C121.5 179.09 124.41 182 128 182C131.59 182 134.5 179.09 134.5 175.5V80.5Z"/>
-        <path d="M159 96.5C159 92.91 156.09 90 152.5 90C148.91 90 146 92.91 146 96.5V159.5C146 163.09 148.91 166 152.5 166C156.09 166 159 163.09 159 159.5V96.5Z"/>
-        <path d="M182 111.5C182 107.91 179.09 105 175.5 105C171.91 105 169 107.91 169 111.5V144.5C169 148.09 171.91 151 175.5 151C179.09 151 182 148.09 182 144.5V111.5Z"/>
+        <path
+          d="M87 112.5C87 108.91 84.09 106 80.5 106C76.91 106 74 108.91 74 112.5V143.5C74 147.09 76.91 150 80.5 150C84.09 150 87 147.09 87 143.5V112.5Z" />
+        <path
+          d="M110 100.5C110 96.91 107.09 94 103.5 94C99.91 94 97 96.91 97 100.5V155.5C97 159.09 99.91 162 103.5 162C107.09 162 110 159.09 110 155.5V100.5Z" />
+        <path
+          d="M134.5 80.5C134.5 76.91 131.59 74 128 74C124.41 74 121.5 76.91 121.5 80.5V175.5C121.5 179.09 124.41 182 128 182C131.59 182 134.5 179.09 134.5 175.5V80.5Z" />
+        <path
+          d="M159 96.5C159 92.91 156.09 90 152.5 90C148.91 90 146 92.91 146 96.5V159.5C146 163.09 148.91 166 152.5 166C156.09 166 159 163.09 159 159.5V96.5Z" />
+        <path
+          d="M182 111.5C182 107.91 179.09 105 175.5 105C171.91 105 169 107.91 169 111.5V144.5C169 148.09 171.91 151 175.5 151C179.09 151 182 148.09 182 144.5V111.5Z" />
       </svg>
       Whispr
     </a>
@@ -37,20 +48,43 @@
       <a href="#models">Models</a>
       <a href="#faq">FAQ</a>
       <a href="https://github.com/product-noob/whispr-app" target="_blank" class="nav-gh" aria-label="GitHub">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
       </a>
     </div>
-    <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg" class="nav-cta" download>Download</a>
+    <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg" class="nav-cta"
+      download>Download</a>
   </nav>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>100% offline &nbsp;&middot;&nbsp; No subscription &nbsp;&middot;&nbsp; No API key &nbsp;&middot;&nbsp; Free
+        forever &nbsp;&middot;&nbsp; Open source &nbsp;&middot;&nbsp; Works in every app &nbsp;&middot;&nbsp; Your audio
+        stays on your Mac &nbsp;&middot;&nbsp; Press. Speak. Release. &nbsp;&middot;&nbsp; Filler words removed
+        &nbsp;&middot;&nbsp; 4 AI models &nbsp;&middot;&nbsp; Runs on Apple Neural Engine &nbsp;&middot;&nbsp; </span>
+      <span>100% offline &nbsp;&middot;&nbsp; No subscription &nbsp;&middot;&nbsp; No API key &nbsp;&middot;&nbsp; Free
+        forever &nbsp;&middot;&nbsp; Open source &nbsp;&middot;&nbsp; Works in every app &nbsp;&middot;&nbsp; Your audio
+        stays on your Mac &nbsp;&middot;&nbsp; Press. Speak. Release. &nbsp;&middot;&nbsp; Filler words removed
+        &nbsp;&middot;&nbsp; 4 AI models &nbsp;&middot;&nbsp; Runs on Apple Neural Engine &nbsp;&middot;&nbsp; </span>
+    </div>
+  </div>
 
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
       <h1>Speak freely.<br><em>Type perfectly.</em></h1>
-      <p class="hero-sub">Hold a hotkey, speak naturally, release. Clean text appears where your cursor is &mdash; no filler words, no cloud, no cost.</p>
+      <p class="hero-sub">Hold a hotkey, speak naturally, release. Clean text appears where your cursor is &mdash; no
+        filler words, no cloud, no cost.</p>
       <div class="hero-actions">
-        <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg" class="btn-primary" download>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg" class="btn-primary"
+          download>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+          </svg>
           Download for Mac &mdash; Free
         </a>
         <a href="https://github.com/product-noob/whispr-app" class="btn-ghost" target="_blank">View on GitHub &rarr;</a>
@@ -61,19 +95,19 @@
 
   <!-- Gatekeeper fix banner -->
   <div class="gatekeeper-banner reveal" role="alert">
-    <a href="#" id="gatekeeper-open" onclick="document.getElementById('gatekeeper-modal').classList.add('active');document.body.style.overflow='hidden';return false;">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+    <a href="#" id="gatekeeper-open"
+      onclick="document.getElementById('gatekeeper-modal').classList.add('active');document.body.style.overflow='hidden';return false;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" />
+        <line x1="12" y1="8" x2="12" y2="12" />
+        <line x1="12" y1="16" x2="12.01" y2="16" />
+      </svg>
       Getting &ldquo;Apple could not verify&rdquo; error? <strong>See how to fix it &rarr;</strong>
     </a>
   </div>
 
-  <!-- Marquee -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>100% offline &nbsp;&middot;&nbsp; No subscription &nbsp;&middot;&nbsp; No API key &nbsp;&middot;&nbsp; Free forever &nbsp;&middot;&nbsp; Open source &nbsp;&middot;&nbsp; Works in every app &nbsp;&middot;&nbsp; Your audio stays on your Mac &nbsp;&middot;&nbsp; Press. Speak. Release. &nbsp;&middot;&nbsp; Filler words removed &nbsp;&middot;&nbsp; 4 AI models &nbsp;&middot;&nbsp; Runs on Apple Neural Engine &nbsp;&middot;&nbsp; </span>
-      <span>100% offline &nbsp;&middot;&nbsp; No subscription &nbsp;&middot;&nbsp; No API key &nbsp;&middot;&nbsp; Free forever &nbsp;&middot;&nbsp; Open source &nbsp;&middot;&nbsp; Works in every app &nbsp;&middot;&nbsp; Your audio stays on your Mac &nbsp;&middot;&nbsp; Press. Speak. Release. &nbsp;&middot;&nbsp; Filler words removed &nbsp;&middot;&nbsp; 4 AI models &nbsp;&middot;&nbsp; Runs on Apple Neural Engine &nbsp;&middot;&nbsp; </span>
-    </div>
-  </div>
+
 
   <!-- Demo -->
   <section class="demo" id="demo">
@@ -107,14 +141,21 @@
       <div class="demo-compare reveal">
         <div class="demo-spoken">
           <span class="demo-tag">What you said</span>
-          <p>&ldquo;Uh, hey team, so I just wanted to, um, send a quick update on the project... we&rsquo;re like, on track for the Thursday deadline I think, and uh, everyone should review the notes from yesterday and like, confirm your action items by end of day.&rdquo;</p>
+          <p>&ldquo;Uh, hey team, so I just wanted to, um, send a quick update on the project... we&rsquo;re like, on
+            track for the Thursday deadline I think, and uh, everyone should review the notes from yesterday and like,
+            confirm your action items by end of day.&rdquo;</p>
         </div>
         <div class="demo-arrow" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
         </div>
         <div class="demo-cleaned">
           <span class="demo-tag demo-tag-green">What Whispr typed</span>
-          <p>&ldquo;Hi team, I wanted to send a quick update on the project. We&rsquo;re on track for the Thursday deadline. Please review the notes from yesterday&rsquo;s meeting and confirm your action items by end of day.&rdquo;</p>
+          <p>&ldquo;Hi team, I wanted to send a quick update on the project. We&rsquo;re on track for the Thursday
+            deadline. Please review the notes from yesterday&rsquo;s meeting and confirm your action items by end of
+            day.&rdquo;</p>
         </div>
       </div>
     </div>
@@ -129,21 +170,24 @@
     <div class="steps-grid">
       <div class="step reveal">
         <div class="step-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="6" width="20" height="12" rx="2"/>
-            <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="6" width="20" height="12" rx="2" />
+            <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8" />
           </svg>
         </div>
         <span class="step-num">01</span>
         <h3>Hold your hotkey</h3>
-        <p>Press and hold <strong>fn</strong>, <strong>Ctrl+Space</strong>, or your preferred shortcut. Whispr starts listening instantly.</p>
+        <p>Press and hold <strong>fn</strong>, <strong>Ctrl+Space</strong>, or your preferred shortcut. Whispr starts
+          listening instantly.</p>
       </div>
       <div class="step reveal">
         <div class="step-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
-            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-            <line x1="12" y1="19" x2="12" y2="22"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z" />
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+            <line x1="12" y1="19" x2="12" y2="22" />
           </svg>
         </div>
         <span class="step-num">02</span>
@@ -152,8 +196,9 @@
       </div>
       <div class="step reveal">
         <div class="step-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 6L9 17l-5-5"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 6L9 17l-5-5" />
           </svg>
         </div>
         <span class="step-num">03</span>
@@ -211,30 +256,37 @@
     <div class="bento">
       <div class="bento-card bento-wide reveal">
         <div class="bento-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
           </svg>
         </div>
         <h3>Instant, on-device</h3>
-        <p>No upload delay. Your voice is transcribed in real-time, right on your Mac. Works without internet, without an account, without sending a single byte off your machine.</p>
-        <span class="bento-note">While other tools round-trip your audio to remote servers and charge $10&ndash;20/month, Whispr runs locally and costs nothing.</span>
+        <p>No upload delay. Your voice is transcribed in real-time, right on your Mac. Works without internet, without
+          an account, without sending a single byte off your machine.</p>
+        <span class="bento-note">While other tools round-trip your audio to remote servers and charge
+          $10&ndash;20/month, Whispr runs locally and costs nothing.</span>
       </div>
       <div class="bento-card reveal">
         <div class="bento-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
           </svg>
         </div>
         <h3>Free, forever</h3>
-        <p>No subscription. No trial period. No hidden costs. Open source &mdash; inspect every line of code yourself.</p>
+        <p>No subscription. No trial period. No hidden costs. Open source &mdash; inspect every line of code yourself.
+        </p>
       </div>
       <div class="bento-card reveal">
         <div class="bento-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-            <line x1="8" y1="21" x2="16" y2="21"/>
-            <line x1="12" y1="17" x2="12" y2="21"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+            <line x1="8" y1="21" x2="16" y2="21" />
+            <line x1="12" y1="17" x2="12" y2="21" />
           </svg>
         </div>
         <h3>Works everywhere</h3>
@@ -242,12 +294,15 @@
       </div>
       <div class="bento-card bento-accent reveal">
         <div class="bento-icon">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
           </svg>
         </div>
         <h3>Smart cleanup</h3>
-        <p>Filler words, false starts, verbal tics &mdash; removed automatically. Your thoughts, polished and ready to send.</p>
+        <p>Filler words, false starts, verbal tics &mdash; removed automatically. Your thoughts, polished and ready to
+          send.</p>
       </div>
     </div>
   </section>
@@ -256,13 +311,15 @@
   <section class="privacy">
     <div class="privacy-inner reveal">
       <div class="privacy-lock" aria-hidden="true">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+          <path d="M7 11V7a5 5 0 0 1 10 0v4" />
         </svg>
       </div>
       <h2>Your voice never<br>leaves your Mac.</h2>
-      <p>Whispr processes everything locally using on-device AI models. Your audio is never uploaded, stored on a server, or shared with anyone. No account. No telemetry. No exceptions.</p>
+      <p>Whispr processes everything locally using on-device AI models. Your audio is never uploaded, stored on a
+        server, or shared with anyone. No account. No telemetry. No exceptions.</p>
     </div>
   </section>
 
@@ -276,43 +333,60 @@
       <details class="faq-item reveal">
         <summary>Is Whispr really free?</summary>
         <div class="faq-body">
-          <p>Yes. Whispr is open source and completely free. There are no subscriptions, no premium tiers, no time-limited trials, and no hidden costs. The offline models are included &mdash; download once and use forever.</p>
+          <p>Yes. Whispr is open source and completely free. There are no subscriptions, no premium tiers, no
+            time-limited trials, and no hidden costs. The offline models are included &mdash; download once and use
+            forever.</p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>Does it work without internet?</summary>
         <div class="faq-body">
-          <p>Yes. Three of the four models (Parakeet v3, Whisper Large Turbo, Whisper Small) run entirely on your Mac. No internet connection needed after the initial model download. The fourth option (OpenAI gpt-4o) requires internet and your own API key, but it&rsquo;s completely optional.</p>
+          <p>Yes. Three of the four models (Parakeet v3, Whisper Large Turbo, Whisper Small) run entirely on your Mac.
+            No internet connection needed after the initial model download. The fourth option (OpenAI gpt-4o) requires
+            internet and your own API key, but it&rsquo;s completely optional.</p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>How accurate is the transcription?</summary>
         <div class="faq-body">
-          <p>Very accurate for English. We recommend Parakeet v3 for the best balance of speed and accuracy &mdash; it runs on Apple&rsquo;s Neural Engine and handles natural speech well. For maximum accuracy, the OpenAI gpt-4o cloud model is available with your own API key.</p>
+          <p>Very accurate for English. We recommend Parakeet v3 for the best balance of speed and accuracy &mdash; it
+            runs on Apple&rsquo;s Neural Engine and handles natural speech well. For maximum accuracy, the OpenAI gpt-4o
+            cloud model is available with your own API key.</p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>What about other languages?</summary>
         <div class="faq-body">
-          <p>Currently, Whispr is optimized for English. The Whisper Large Turbo model has multilingual capabilities, but the app&rsquo;s cleanup and filler-word removal are tuned for English. Multi-language support is on the roadmap.</p>
+          <p>Currently, Whispr is optimized for English. The Whisper Large Turbo model has multilingual capabilities,
+            but the app&rsquo;s cleanup and filler-word removal are tuned for English. Multi-language support is on the
+            roadmap.</p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>How do I set up Whispr?</summary>
         <div class="faq-body">
-          <p>Open the DMG, drag Whispr to Applications, and launch it. macOS will ask you to grant Microphone and Accessibility permissions (needed for the global hotkey and paste). That&rsquo;s it &mdash; hold <strong>fn</strong> and start speaking.</p>
+          <p>Open the DMG, drag Whispr to Applications, and launch it. macOS will ask you to grant Microphone and
+            Accessibility permissions (needed for the global hotkey and paste). That&rsquo;s it &mdash; hold
+            <strong>fn</strong> and start speaking.
+          </p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>Why does macOS say it can&rsquo;t verify Whispr?</summary>
         <div class="faq-body">
-          <p>Whispr isn&rsquo;t notarized with Apple (that requires a $99/year developer subscription). It&rsquo;s completely safe &mdash; fully open source and auditable. <a href="#" onclick="document.getElementById('gatekeeper-modal').classList.add('active');document.body.style.overflow='hidden';return false;">See the 3-step fix &rarr;</a></p>
+          <p>Whispr isn&rsquo;t notarized with Apple (that requires a $99/year developer subscription). It&rsquo;s
+            completely safe &mdash; fully open source and auditable. <a href="#"
+              onclick="document.getElementById('gatekeeper-modal').classList.add('active');document.body.style.overflow='hidden';return false;">See
+              the 3-step fix &rarr;</a></p>
         </div>
       </details>
       <details class="faq-item reveal">
         <summary>Is it safe? Can I trust it?</summary>
         <div class="faq-body">
-          <p>Whispr is fully open source &mdash; you can inspect every line of code on <a href="https://github.com/product-noob/whispr-app" target="_blank">GitHub</a>. Audio is processed on-device and never transmitted. The app requires Microphone and Accessibility permissions (for the global hotkey and paste), both of which macOS explicitly asks you to grant.</p>
+          <p>Whispr is fully open source &mdash; you can inspect every line of code on <a
+              href="https://github.com/product-noob/whispr-app" target="_blank">GitHub</a>. Audio is processed on-device
+            and never transmitted. The app requires Microphone and Accessibility permissions (for the global hotkey and
+            paste), both of which macOS explicitly asks you to grant.</p>
         </div>
       </details>
     </div>
@@ -323,8 +397,10 @@
     <div class="final-cta-inner reveal">
       <span class="eyebrow eyebrow-dim">Ready?</span>
       <h2>Start speaking.<br><em>Stop typing.</em></h2>
-      <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg" class="btn-primary btn-large" download>Download Whispr &mdash; Free</a>
-      <p class="final-meta">macOS 14+ &middot; No sign-up &middot; <a href="https://github.com/product-noob/whispr-app" target="_blank">Build from source</a></p>
+      <a href="https://github.com/product-noob/whispr-app/releases/latest/download/Whispr.dmg"
+        class="btn-primary btn-large" download>Download Whispr &mdash; Free</a>
+      <p class="final-meta">macOS 14+ &middot; No sign-up &middot; <a href="https://github.com/product-noob/whispr-app"
+          target="_blank">Build from source</a></p>
     </div>
   </section>
 
@@ -332,12 +408,18 @@
   <footer>
     <div class="footer-inner">
       <span class="footer-logo">
-        <svg class="footer-logo-icon" width="18" height="18" viewBox="74 74 108 108" fill="currentColor" aria-hidden="true">
-          <path d="M87 112.5C87 108.91 84.09 106 80.5 106C76.91 106 74 108.91 74 112.5V143.5C74 147.09 76.91 150 80.5 150C84.09 150 87 147.09 87 143.5V112.5Z"/>
-          <path d="M110 100.5C110 96.91 107.09 94 103.5 94C99.91 94 97 96.91 97 100.5V155.5C97 159.09 99.91 162 103.5 162C107.09 162 110 159.09 110 155.5V100.5Z"/>
-          <path d="M134.5 80.5C134.5 76.91 131.59 74 128 74C124.41 74 121.5 76.91 121.5 80.5V175.5C121.5 179.09 124.41 182 128 182C131.59 182 134.5 179.09 134.5 175.5V80.5Z"/>
-          <path d="M159 96.5C159 92.91 156.09 90 152.5 90C148.91 90 146 92.91 146 96.5V159.5C146 163.09 148.91 166 152.5 166C156.09 166 159 163.09 159 159.5V96.5Z"/>
-          <path d="M182 111.5C182 107.91 179.09 105 175.5 105C171.91 105 169 107.91 169 111.5V144.5C169 148.09 171.91 151 175.5 151C179.09 151 182 148.09 182 144.5V111.5Z"/>
+        <svg class="footer-logo-icon" width="18" height="18" viewBox="74 74 108 108" fill="currentColor"
+          aria-hidden="true">
+          <path
+            d="M87 112.5C87 108.91 84.09 106 80.5 106C76.91 106 74 108.91 74 112.5V143.5C74 147.09 76.91 150 80.5 150C84.09 150 87 147.09 87 143.5V112.5Z" />
+          <path
+            d="M110 100.5C110 96.91 107.09 94 103.5 94C99.91 94 97 96.91 97 100.5V155.5C97 159.09 99.91 162 103.5 162C107.09 162 110 159.09 110 155.5V100.5Z" />
+          <path
+            d="M134.5 80.5C134.5 76.91 131.59 74 128 74C124.41 74 121.5 76.91 121.5 80.5V175.5C121.5 179.09 124.41 182 128 182C131.59 182 134.5 179.09 134.5 175.5V80.5Z" />
+          <path
+            d="M159 96.5C159 92.91 156.09 90 152.5 90C148.91 90 146 92.91 146 96.5V159.5C146 163.09 148.91 166 152.5 166C156.09 166 159 163.09 159 159.5V96.5Z" />
+          <path
+            d="M182 111.5C182 107.91 179.09 105 175.5 105C171.91 105 169 107.91 169 111.5V144.5C169 148.09 171.91 151 175.5 151C179.09 151 182 148.09 182 144.5V111.5Z" />
         </svg>
         Whispr
       </span>
@@ -356,14 +438,16 @@
     <div class="modal" role="dialog" aria-label="Fix macOS verification error">
       <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
       <h2 class="modal-title">Fix &ldquo;Apple could not verify&rdquo;</h2>
-      <p class="modal-intro">Whispr is open source and safe, but since it&rsquo;s not notarized with Apple, macOS blocks it on first launch. Follow these three steps:</p>
+      <p class="modal-intro">Whispr is open source and safe, but since it&rsquo;s not notarized with Apple, macOS blocks
+        it on first launch. Follow these three steps:</p>
 
       <div class="modal-step">
         <div class="modal-step-num">1</div>
         <div class="modal-step-content">
           <h3>Dismiss the error</h3>
           <p>When you first open Whispr, you&rsquo;ll see this dialog. Click <strong>Done</strong>.</p>
-          <img src="step1-error.png" alt="macOS dialog: Apple could not verify Whispr is free of malware" class="modal-step-img" loading="lazy">
+          <img src="step1-error.png" alt="macOS dialog: Apple could not verify Whispr is free of malware"
+            class="modal-step-img" loading="lazy">
         </div>
       </div>
 
@@ -371,8 +455,10 @@
         <div class="modal-step-num">2</div>
         <div class="modal-step-content">
           <h3>Open Privacy &amp; Security settings</h3>
-          <p>Go to <strong>System Settings &rarr; Privacy &amp; Security</strong>. Scroll to the bottom. You&rsquo;ll see <em>&ldquo;Whispr was blocked to protect your Mac.&rdquo;</em> Click <strong>Open Anyway</strong>.</p>
-          <img src="step2-settings.png" alt="macOS Privacy and Security settings showing Open Anyway button" class="modal-step-img" loading="lazy">
+          <p>Go to <strong>System Settings &rarr; Privacy &amp; Security</strong>. Scroll to the bottom. You&rsquo;ll
+            see <em>&ldquo;Whispr was blocked to protect your Mac.&rdquo;</em> Click <strong>Open Anyway</strong>.</p>
+          <img src="step2-settings.png" alt="macOS Privacy and Security settings showing Open Anyway button"
+            class="modal-step-img" loading="lazy">
         </div>
       </div>
 
@@ -380,8 +466,10 @@
         <div class="modal-step-num">3</div>
         <div class="modal-step-content">
           <h3>Confirm and launch</h3>
-          <p>macOS will ask one more time. Click <strong>Open Anyway</strong>. Whispr will launch normally from now on.</p>
-          <img src="step3-confirm.png" alt="macOS confirmation dialog with Open Anyway button" class="modal-step-img" loading="lazy">
+          <p>macOS will ask one more time. Click <strong>Open Anyway</strong>. Whispr will launch normally from now on.
+          </p>
+          <img src="step3-confirm.png" alt="macOS confirmation dialog with Open Anyway button" class="modal-step-img"
+            loading="lazy">
         </div>
       </div>
 
@@ -483,4 +571,5 @@
   </script>
 
 </body>
+
 </html>
